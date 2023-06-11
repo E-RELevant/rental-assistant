@@ -1,0 +1,122 @@
+{
+	"dir": {
+		"message": "ltr",
+		"description": "The CSS direction."
+	},
+	"extension_name": {
+		"message": "Rental Assistant",
+		"description": "The name of the extension."
+	},
+	"context_menu_title": {
+		"message": "Send a WhatsApp message",
+		"description": "The title of the context menu action."
+	},
+	"popup_title_sender": {
+		"message": "Sender's name",
+		"description": "The title for the sender's name."
+	},
+	"popup_placeholder_sender": {
+		"message": "Please enter a name...",
+		"description": "The placeholder for the sender's name text box."
+	},
+	"popup_title_message": {
+		"message": "Message",
+		"description": "The title for the message box."
+	},
+	"popup_placeholder_message": {
+		"message": "Please enter the message content...",
+		"description": "The placeholder for the message's content text box."
+	},
+	"popup_default_message": {
+		"message": "@greeting, I saw your apartment ad, is it still relevant? If so, I would love to hear more about it.",
+		"description": "The default message presented."
+	},
+	"popup_button_save": {
+		"message": "Save",
+		"description": "The save button text."
+	},
+	"popup_title_link": {
+		"message": "Send a WhatsApp",
+		"description": "The title of the link."
+	},
+	"popup_tag_greeting": {
+		"message": "greeting",
+		"description": "The tag for a greeting timed according to the time of day."
+	},
+	"greeting_morning": {
+		"message": "Good morning",
+		"description": "The greeting for the morning (between 12AM - 12PM)."
+	},
+	"greeting_midday": {
+		"message": "Good afternoon",
+		"description": "The greeting for the midday (between 12PM - 4PM)."
+	},
+	"greeting_afternoon": {
+		"message": "Good afternoon",
+		"description": "The greeting for the afternoon (between 4PM - 7PM)."
+	},
+	"greeting_evening": {
+		"message": "Good evening",
+		"description": "The greeting for the evening (between 7PM - 9PM)."
+	},
+	"greeting_night": {
+		"message": "Good night",
+		"description": "The greeting for the night (between 9PM - 12AM)."
+	},
+	"popup_tag_name": {
+		"message": "name",
+		"description": "The tag for the sender's name."
+	},
+	"popup_tag_website": {
+		"message": "website",
+		"description": "The tag for the current visited website."
+	},
+	"options_legend_title_visuals": {
+		"message": "Visuals",
+		"description": "The 'visuals' section title."
+	},
+	"options_subtitle_theme": {
+		"message": "Theme",
+		"description": "The 'Theme' subtitle option under the 'visuals' section."
+	},
+	"options_theme_option_dark": {
+		"message": "Dark",
+		"description": "The 'Dark' theme option under the 'Theme' option."
+	},
+	"options_theme_option_light": {
+		"message": "Light",
+		"description": "The 'Light' theme option under the 'Theme' option."
+	},
+	"options_legend_title_phone_number": {
+		"message": "Phone Number",
+		"description": "The 'phone number' section title."
+	},
+	"options_subtitle_intl_call_code": {
+		"message": "International Calling Code",
+		"description": "The 'International Calling Code' subtitle option under the 'phone number' section."
+	},
+	"options_subtitle_match_patterns": {
+		"message": "Phone Match Patterns",
+		"description": "The 'Phone Match Patterns' subtitle option under the 'phone number' section."
+	},
+	"options_button_add_pattern": {
+		"message": "Add",
+		"description": "The 'Add' button under the 'phone match patterns' option."
+	},
+	"options_placeholder_patterns_input": {
+		"message": "Enter pattern...",
+		"description": "The placeholder for the pattern input text box."
+	},
+	"options_legend_title_domains": {
+		"message": "Domains",
+		"description": "The 'domains' section title."
+	},
+	"options_subtitle_ignored_domains": {
+		"message": "Ignored Domains",
+		"description": "The 'Ignored Domains' subtitle option under the 'domains' section."
+	},
+	"options_saved_toast_text": {
+		"message": "Your settings have been saved.",
+		"description": "The 'settings saved' toast text."
+	}
+}

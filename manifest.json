@@ -1,0 +1,40 @@
+{
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"author": "Erel Adoni",
+	"background": {
+		"service_worker": "background.js"
+	},
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://*.facebook.com/*"],
+			"js": ["resources/js/common.js", "content_script.js"]
+		}
+	],
+	"default_locale": "en",
+	"default_title": "Open settings",
+	"description": "Send customized message templates to apartment advertisers to facilitate the apartment search process.",
+	"icons": {
+		"16": "resources/icons/16.png",
+		"128": "resources/icons/128.png"
+	},
+	"manifest_version": 3,
+	"name": "Rental Assistant",
+	"options_ui": {
+		"open_in_tab": true,
+		"page": "options.html"
+	},
+	"permissions": ["storage", "contextMenus", "tabs"],
+	"short_name": "Rental Assistant",
+	"version": "0.0.5",
+	"web_accessible_resources": [
+		{
+			"resources": ["_locales/en/messages.json", "_locales/he/messages.json"],
+			"matches": ["<all_urls>"]
+		}
+	]
+}

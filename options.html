@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Rental Assistant - Options</title>
+		<link href="resources/css/common.css" rel="stylesheet" type="text/css" />
+		<link
+			href="resources/css/thirdParty/toastify.min.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="resources/css/thirdParty/intlTelInput.min.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link href="resources/css/options.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div>
+					<img
+						src="resources/icons/128.png"
+						class="extension-icon"
+						alt="icon"
+						width="32"
+					/><a href="#" id="extension-name" dir="ltr">Rental Assistant</a>
+				</div>
+				<div class="rate">
+					<svg version="1.1" viewBox="0 0 24 24">
+						<path d="M0 0h24v24H0z" fill="none" />
+						<path d="M0 0h24v24H0z" fill="none" />
+						<path
+							d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+						/>
+					</svg>
+				</div>
+				<div>
+					<select id="select-language" name="select-language">
+						<option value="en">English</option>
+						<option value="he">עברית</option>
+					</select>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<fieldset>
+				<legend id="legend-visuals"></legend>
+				<table>
+					<tr>
+						<td id="visuals-option-theme"></td>
+						<td>
+							<select id="select-theme">
+								<option id="dark-theme" value="dark"></option>
+								<option id="light-theme" value="light"></option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend id="legend-phone-number"></legend>
+				<table>
+					<tr>
+						<td id="phone-number-option-intl-call-code"></td>
+						<td>
+							<input type="tel" placeholder="" id="intl-call-code" />
+						</td>
+					</tr>
+					<tr>
+						<td id="phone-number-option-match-patterns"></td>
+						<td>
+							<div class="container">
+								<div style="direction: ltr">
+									/
+									<input
+										type="text"
+										id="patterns-input"
+										placeholder="Enter pattern..."
+									/>
+									/g
+								</div>
+								<button id="btn-add-pattern"></button>
+							</div>
+							<ul id="patterns"></ul>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend id="legend-domains"></legend>
+				<table>
+					<tr>
+						<td id="domains-option-ingored-domains"></td>
+						<td>#UNDER_CONSTRUCTION</td>
+					</tr>
+				</table>
+			</fieldset>
+		</main>
+
+		<script src="resources/js/common.js"></script>
+		<script src="resources/js/thirdParty/toastify.min.js"></script>
+		<script src="resources/js/thirdParty/intlTelInput.min.js"></script>
+		<script src="resources/js/options.js"></script>
+	</body>
+</html>

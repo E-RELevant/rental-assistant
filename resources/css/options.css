@@ -1,0 +1,137 @@
+.dark {
+	--app-background: #0c1317;
+	--panel-header-background: #202c33;
+	--drawer-section-background: #111b21;
+	--drawer-section-background-rgb: 17, 27, 33;
+
+	--text-legend: #008069;
+}
+
+:root,
+.light {
+	--app-background: #f0f2f5;
+	--panel-header-background: #008069;
+	--drawer-section-background: #ffffff;
+	--drawer-section-background-rgb: 255, 255, 255;
+
+	--text-legend: #00a884;
+	--nav-text: #ffffff;
+}
+
+body {
+	color: var(--text-primary);
+	font-family: 'Segoe UI', 'Helvetica Neue', 'Helvetica', 'Lucida Grande',
+		'Arial', 'Ubuntu', 'Cantarell', 'Fira Sans', 'sans-serif';
+	font-size: 1rem;
+	background-color: var(--app-background);
+	margin: 0;
+	padding: 0;
+	transition: 0.2s linear;
+}
+
+header {
+	background-color: var(--panel-header-background);
+	box-shadow: 0 2px 4px #0b141a29;
+	display: flex;
+	justify-content: center;
+	padding: 0.8rem;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 50rem;
+	width: 100%;
+}
+
+nav a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav div {
+	display: flex;
+	align-items: center;
+}
+
+legend {
+	font-weight: bold;
+	text-transform: capitalize;
+	color: var(--text-legend);
+}
+
+fieldset {
+	background-color: var(--drawer-section-background);
+	border: 0.1rem solid var(--fieldset-background);
+	border-radius: 0.25rem;
+	box-shadow: 0 2px 4px #0b141a29;
+	margin-bottom: 2em;
+	padding: 0.8em;
+}
+
+fieldset table {
+	width: 100%;
+}
+
+fieldset table td {
+	padding: 1rem 0.5rem;
+	vertical-align: text-top;
+}
+
+fieldset table td:first-child {
+	text-transform: capitalize;
+}
+
+fieldset table td:nth-child(2) {
+	text-align: center;
+}
+
+main {
+	margin: 2em auto;
+	max-width: 50rem;
+}
+
+ul > li.patterns-item {
+	background-color: var(--panel-background-deep);
+	border-radius: 10rem;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.patterns {
+	border: 1px solid orangered;
+	padding: 0.25rem;
+	padding-inline-start: 0 !important;
+	min-height: 4rem;
+}
+
+.patterns-item {
+	direction: ltr;
+	margin: 0.4rem 0;
+	padding: 0.5rem 2rem;
+	white-space: nowrap;
+	overflow: auto;
+	overflow-y: hidden;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 4fr 1fr;
+	grid-gap: 20px;
+}
+
+#extension-name {
+	color: var(--nav-text);
+	font-weight: bold;
+	padding: 0 1rem;
+}
+
+#intl-call-code {
+	visibility: hidden;
+	width: 0;
+}

@@ -1,0 +1,121 @@
+{
+	"dir": {
+		"message": "rtl"
+	},
+	"extension_name": {
+		"message": "עוזר להשכרת דירה",
+		"description": "The name of the extension."
+	},
+	"context_menu_title": {
+		"message": "שליחת הודעה בוואטסאפ",
+		"description": "The title of the context menu action."
+	},
+	"popup_title_sender": {
+		"message": "שם השולח/ת",
+		"description": "The title for the sender's name."
+	},
+	"popup_placeholder_sender": {
+		"message": "יש להזין שם...",
+		"description": "The placeholder for the sender's name text box."
+	},
+	"popup_title_message": {
+		"message": "הודעה",
+		"description": "The title for the message box."
+	},
+	"popup_placeholder_message": {
+		"message": "יש להזין את תוכן ההודעה...",
+		"description": "The placeholder for the message's content text box."
+	},
+	"popup_default_message": {
+		"message": "@ברכה_מתוזמנת, ראיתי את ההודעה שפרסמת לגבי הדירה. האם היא עוד רלוונטית? אם כן, אשמח לשמוע פרטים נוספים אודותיה.",
+		"description": "The default message presented."
+	},
+	"popup_button_save": {
+		"message": "שמירה",
+		"description": "The save button text."
+	},
+	"popup_title_link": {
+		"message": "שליחת וואטסאפ",
+		"description": "The title of the link."
+	},
+	"popup_tag_greeting": {
+		"message": "ברכה_מתוזמנת",
+		"description": "The tag for a greeting timed according to the time of day."
+	},
+	"greeting_morning": {
+		"message": "בוקר טוב",
+		"description": "The greeting for the morning (between 12AM - 12PM)."
+	},
+	"greeting_midday": {
+		"message": "צהריים טובים",
+		"description": "The greeting for the midday (between 12PM - 4PM)."
+	},
+	"greeting_afternoon": {
+		"message": "אחר צהריים טובים",
+		"description": "The greeting for the afternoon (between 4PM - 7PM)."
+	},
+	"greeting_evening": {
+		"message": "ערב טוב",
+		"description": "The greeting for the evening (between 7PM - 9PM)."
+	},
+	"greeting_night": {
+		"message": "לילה טוב",
+		"description": "The greeting for the night (between 9PM - 12AM)."
+	},
+	"popup_tag_name": {
+		"message": "שם",
+		"description": "The tag for the sender's name."
+	},
+	"popup_tag_website": {
+		"message": "אתר",
+		"description": "The tag for the current visited website."
+	},
+	"options_legend_title_visuals": {
+		"message": "תצוגה",
+		"description": "The 'visuals' section title."
+	},
+	"options_subtitle_theme": {
+		"message": "ערכת נושא",
+		"description": "The 'Theme' subtitle option under the 'visuals' section."
+	},
+	"options_theme_option_dark": {
+		"message": "כהה",
+		"description": "The 'Dark' theme option under the 'Theme' option."
+	},
+	"options_theme_option_light": {
+		"message": "בהירה",
+		"description": "The 'Light' theme option under the 'Theme' option."
+	},
+	"options_legend_title_phone_number": {
+		"message": "מספרי טלפון",
+		"description": "The 'phone number' section title."
+	},
+	"options_subtitle_intl_call_code": {
+		"message": "קידומת טלפון בין-לאומית",
+		"description": "The 'International Calling Code' subtitle option under the 'phone number' section."
+	},
+	"options_subtitle_match_patterns": {
+		"message": "דפוסי ביטוי רגולרי למספרי טלפון",
+		"description": "The 'Phone Match Patterns' subtitle option under the 'phone number' section."
+	},
+	"options_button_add_pattern": {
+		"message": "הוספה",
+		"description": "The 'Add' button under the 'phone match patterns' option."
+	},
+	"options_placeholder_patterns_input": {
+		"message": "יש להזין ביטוי רגולרי...",
+		"description": "The placeholder for the pattern input text box."
+	},
+	"options_legend_title_domains": {
+		"message": "כתובות אתר",
+		"description": "The 'domains' section title."
+	},
+	"options_subtitle_ignored_domains": {
+		"message": "כתובות אתר להתעלמות",
+		"description": "The 'Ignored Domains' subtitle option under the 'domains' section."
+	},
+	"options_saved_toast_text": {
+		"message": "ההגדרות שלך נשמרו.",
+		"description": "The 'settings saved' toast text."
+	}
+}
