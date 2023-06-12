@@ -176,14 +176,12 @@ function updateElements() {
 	handleInput();
 }
 
-$(function () {
-	$('#options_saved_toast')
-		.toast({
-			text: getMessage('options_saved_toast_text'),
-			duration: 2000,
-			gravity: 'bottom',
-			position: getMessage('dir') == 'rtl' ? 'right' : 'left',
-			close: true,
-		})
-		.show();
-});
+function settingsSavedToast() {
+	Toastify({
+		text: getMessage('options_saved_toast_text'),
+		duration: 2000,
+		gravity: 'bottom',
+		position: getMessage('dir') == 'rtl' ? 'right' : 'left',
+		close: true,
+	}).showToast();
+}
