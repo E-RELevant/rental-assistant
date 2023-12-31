@@ -87,9 +87,11 @@ Enhance your communication with the use of message tags such as:
 - [x] Options: Snackbar / Toast indication on options change
 - [ ] Message content: encoded-emoji support
 - [ ] Data persistence: reload page only when matching one of the manifest's content_scripts matches
+- [ ] Multiple saved messages
 - [ ] Tags
   - [x] Highlight tags
   - [ ] `@publisher`: Inserts the name of the publisher
+  - [ ] `@address`: Inserts the apartment's address
 
 ## Feedback
 
